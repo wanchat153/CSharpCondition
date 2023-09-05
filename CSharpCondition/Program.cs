@@ -10,6 +10,18 @@ namespace CSharpCondition
     {
         static void Main(string[] args)
         {
+            //if else
+            Console.WriteLine("Are you over 18?");
+            Console.WriteLine("Enter Age :");
+            int age = int.Parse(Console.ReadLine());
+            if (age < 18)
+            {
+                Console.WriteLine("False");
+            }else if (age >= 18)
+            {
+                Console.WriteLine("True");
+            }
+            Console.WriteLine("Bye");
         }
     }
 }
